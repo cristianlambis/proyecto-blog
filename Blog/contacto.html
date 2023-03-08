@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Blog de migración a la programación" />
+    <link rel="icon" href="favicon.png" />
+    <title>Blog de migración a la programación</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Migración a la programación</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="articulos.html">Artículos</a></li>
+          <li><a href="#contacto" class="active">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="contacto">
+        <h2>Contacto</h2>
+        <form action="submit-form.php" method="post">
+          <label for="nombre">Nombre:</label>
+          <input type="text" id="nombre" name="nombre" required />
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+          <label for="mensaje">Mensaje:</label>
+          <textarea id="mensaje" name="mensaje" required></textarea>
+          <button type="submit">Enviar</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <div class="container">
+        <p>&copy; 2023 Migración a la programación! - Propiedad de Cristian Lambis Bello</p>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>

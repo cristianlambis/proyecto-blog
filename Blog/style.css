@@ -1,0 +1,60 @@
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+}
+
+/* Encabezado */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+header h1 {
+  margin: 0;
+}
+
+/* Menú de navegación */
+nav {
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+nav li a {
+  color: #333;
+  text-decoration: none;
+  padding: 5px;
+}
+
+nav li a:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+/* Contenido principal */
+main {
+  margin: 20px;
+}
+
+/* Pie de página */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
