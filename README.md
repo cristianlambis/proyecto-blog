@@ -1,4 +1,4 @@
-# proyecto-blog
+# Proyecto-blog
 # Migración a la Programación
 
 Este es un proyecto de blog en el que comparto mi experiencia migrando de otra carrera a la programación. En el blog, hablo sobre los desafíos que enfrenté y las soluciones que encontré para superarlos. Además, doy consejos útiles para aquellos que también están considerando hacer una transición similar.
